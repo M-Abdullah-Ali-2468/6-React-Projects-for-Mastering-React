@@ -1,0 +1,82 @@
+.accordion {
+    display: flex
+;
+    flex-direction: column;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    margin: 5rem;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.multi-sel{
+  height: 30px;
+  width: 100%;
+  background-color: aqua;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+}
+
+.multi-sel:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.accordion-data{
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid white;
+  padding: 10px;
+  background-color: black;
+}
+
+.accordion-item{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid white;
+}
+
+.question{
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+}
+
+.question p{
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  min-height: 20px;
+  max-height:100px;
+  padding: 3px;
+  text-align: center;
+}
+
+.question span {
+    display: flex
+;
+    justify-content: space-evenly;
+    width: 20px;
+    font-size: x-large;
+    height: 30px;
+    align-items: center;
+    margin-top: 15px;
+}
+.question p:hover, span:hover{
+background-color: grey;
+border-radius: 2px;
+}
+
+.answers p {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+    min-height: 20px;
+    max-height: 100px;
+    padding: 5px;
+    text-align: center;
+}
