@@ -1,0 +1,27 @@
+/* Style for buttons */
+.changeColor {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.changeColor:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Style for color display */
+.display {
+  margin-top: 30px;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
