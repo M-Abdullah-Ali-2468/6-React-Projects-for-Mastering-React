@@ -41,7 +41,7 @@ function ChangeColor() {
     setNamed(name);
     setHex(null);
     setRGB([]);
-    console.log(name); // ✅ Log current value
+    console.log(name);
   }
 
   const backgroundColor = hex ? hex : rgb.length ? `rgb(${rgb[0]}, ${rgb[1]}, ${rgb[2]})` : named;
@@ -52,7 +52,7 @@ function ChangeColor() {
       <button className="changeColor" onClick={generateHex}>Hex Colors</button>
       <button className="changeColor" onClick={generateRGB}>RGB Colors</button>
       <button className="changeColor" onClick={generateNamed}>Named Colors</button>
-      <h1 style={{backgroundColor:'white'}}>{backgroundColor}</h1>
+      <h1 className='display'>{backgroundColor}</h1>
     </>
   );
 }
